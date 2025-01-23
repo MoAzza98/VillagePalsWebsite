@@ -65,8 +65,8 @@ export default function LandingPage() {
       <nav className="relative z-10 flex items-center justify-between px-4 md:px-8 py-6">
         <div className="flex items-center gap-8 md:gap-16">
           <Image
-            src="/images/leaf-solid.svg"
-            alt="Leaf Logo"
+            src="/images/Tent.png"
+            alt="Tent Logo"
             width={32}
             height={32}
             className="object-contain text-white"

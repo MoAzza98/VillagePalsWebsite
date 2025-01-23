@@ -31,13 +31,10 @@ export default function LandingPage() {
             muted
             playsInline
             preload="auto"
-            poster="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-01-09%20232250-ejHt8hFWChQwMi9yPH9mpK28enYSM7.png"
+            poster="/images/video-poster.png"
             className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${isVideoLoaded ? "opacity-90" : "opacity-0"}`}
           >
-            <source
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/SnippetClips%20VillagePals-sDgRmCqU1FF6LhZLEXf50t4jJVWaDC.mp4"
-              type="video/mp4"
-            />
+            <source src="/videos/VillagePals.mp4" type="video/mp4" />
           </video>
           <div className="absolute inset-0 bg-black/20" />
           <div className="absolute left-0 top-0 h-full w-[40rem] bg-gradient-to-r from-[#1a4b8a] via-[#1a4b8a]/95 via-30% to-transparent md:block hidden">
@@ -49,7 +46,7 @@ export default function LandingPage() {
       ) : (
         <div className="absolute inset-0">
           <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-01-09%20232250-ejHt8hFWChQwMi9yPH9mpK28enYSM7.png"
+            src="/images/video-poster.png"
             alt="Scenic camping background with mountains"
             fill
             className="object-cover"
@@ -68,7 +65,7 @@ export default function LandingPage() {
       <nav className="relative z-10 flex items-center justify-between px-4 md:px-8 py-6">
         <div className="flex items-center gap-8 md:gap-16">
           <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/leaf-solid-9YyM78LRQ9c6DYgqtaRTbga4tj1O1x.svg"
+            src="/images/leaf-solid-9YyM78LRQ9c6DYgqtaRTbga4tj1O1x.svg"
             alt="Leaf Logo"
             width={32}
             height={32}
@@ -113,7 +110,7 @@ export default function LandingPage() {
         <Button variant="ghost" size="icon" className="text-white/50 hover:text-white hover:bg-transparent" asChild>
           <a href="https://x.com/VillagePals" target="_blank" rel="noopener noreferrer">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/x-social-media-white-icon-XLDu2lOIZSBwz469ddGEDniAF5tczo.png"
+              src="/images/x-social-media-white-icon-XLDu2lOIZSBwz469ddGEDniAF5tczo.png"
               alt="X (Twitter)"
               width={20}
               height={20}
@@ -124,7 +121,7 @@ export default function LandingPage() {
         <Button variant="ghost" size="icon" className="text-white/50 hover:text-white hover:bg-transparent" asChild>
           <a href="https://discord.com" target="_blank" rel="noopener noreferrer">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/discord-Ep5HkcXmRWimhQq8YcuYWJLktTauLJ.png"
+              src="/images/discord-Ep5HkcXmRWimhQq8YcuYWJLktTauLJ.png"
               alt="Discord"
               width={24}
               height={24}
@@ -135,7 +132,7 @@ export default function LandingPage() {
         <Button variant="ghost" size="icon" className="text-white/50 hover:text-white hover:bg-transparent" asChild>
           <a href="https://telegram.org" target="_blank" rel="noopener noreferrer">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/telegram-PfiupKlrqb215CC0QZ6FGKgwMG0l2J.png"
+              src="/images/telegram-PfiupKlrqb215CC0QZ6FGKgwMG0l2J.png"
               alt="Telegram"
               width={20}
               height={20}
@@ -150,7 +147,7 @@ export default function LandingPage() {
         <Button variant="ghost" size="icon" className="text-white/80 hover:text-white hover:bg-transparent" asChild>
           <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/x-social-media-white-icon-XLDu2lOIZSBwz469ddGEDniAF5tczo.png"
+              src="/images/x-social-media-white-icon-XLDu2lOIZSBwz469ddGEDniAF5tczo.png"
               alt="X (Twitter)"
               width={20}
               height={20}
@@ -161,7 +158,7 @@ export default function LandingPage() {
         <Button variant="ghost" size="icon" className="text-white/80 hover:text-white hover:bg-transparent" asChild>
           <a href="https://discord.com" target="_blank" rel="noopener noreferrer">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/discord-Ep5HkcXmRWimhQq8YcuYWJLktTauLJ.png"
+              src="/images/discord-Ep5HkcXmRWimhQq8YcuYWJLktTauLJ.png"
               alt="Discord"
               width={24}
               height={24}
@@ -172,7 +169,7 @@ export default function LandingPage() {
         <Button variant="ghost" size="icon" className="text-white/80 hover:text-white hover:bg-transparent" asChild>
           <a href="https://telegram.org" target="_blank" rel="noopener noreferrer">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/telegram-PfiupKlrqb215CC0QZ6FGKgwMG0l2J.png"
+              src="/images/telegram-PfiupKlrqb215CC0QZ6FGKgwMG0l2J.png"
               alt="Telegram"
               width={20}
               height={20}
@@ -188,7 +185,7 @@ export default function LandingPage() {
           <main className="fixed z-10 flex flex-col items-center px-16 md:px-[calc((100vw-((180px*4)+18px*3))/2)] bottom-64 md:bottom-64 w-full">
             <div className="flex flex-col items-center max-w-[800px] w-full">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Logo%20gapless-lGVPTEwh3Ts6yi7H9buGZVzAWAwULj.png"
+                src="/images/Logo%20gapless-lGVPTEwh3Ts6yi7H9buGZVzAWAwULj.png"
                 alt="Village Pals Logo"
                 width={300}
                 height={112}
@@ -212,7 +209,7 @@ export default function LandingPage() {
             <div className="flex flex-col md:flex-row justify-center gap-3 md:gap-6 w-full md:w-auto">
               <Button className="bg-black/30 hover:bg-black/50 text-white px-4 md:px-8 py-4 md:py-6 rounded-xl w-full md:min-w-[180px] backdrop-blur-sm flex flex-row items-center justify-center gap-3">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/immutable1699613369173-F3bEeHeZd1Q5pfd9rkbMkRPQMHVxPs.png"
+                  src="/images/immutable1699613369173-F3bEeHeZd1Q5pfd9rkbMkRPQMHVxPs.png"
                   alt="ImmutableX Logo"
                   width={24}
                   height={24}
@@ -222,7 +219,7 @@ export default function LandingPage() {
               </Button>
               <Button className="bg-black/30 hover:bg-black/50 text-white px-4 md:px-8 py-4 md:py-6 rounded-xl w-full md:min-w-[180px] backdrop-blur-sm flex flex-row items-center justify-center gap-3">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/sui-sui-logo-4miu67oJMIwtyRJwtLGx5P3dZXqLU2.webp"
+                  src="/images/sui-sui-logo-4miu67oJMIwtyRJwtLGx5P3dZXqLU2.webp"
                   alt="Sui Logo"
                   width={24}
                   height={24}
@@ -232,7 +229,7 @@ export default function LandingPage() {
               </Button>
               <Button className="bg-black/30 hover:bg-black/50 text-white px-4 md:px-8 py-4 md:py-6 rounded-xl w-full md:min-w-[180px] backdrop-blur-sm flex flex-row items-center justify-center gap-3">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Solana_logo-XQMY7TlwSjVwvcX7sG0AWwg2VaQp1N.png"
+                  src="/images/Solana_logo-XQMY7TlwSjVwvcX7sG0AWwg2VaQp1N.png"
                   alt="Solana Logo"
                   width={24}
                   height={24}

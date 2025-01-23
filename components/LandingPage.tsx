@@ -1,7 +1,6 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { GamepadIcon as GameController, MessageSquare, Trophy, Users } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
 import { Roadmap } from "./roadmap"

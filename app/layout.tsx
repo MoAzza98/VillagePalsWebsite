@@ -1,5 +1,5 @@
 import type React from "react"
-import "@/globals.css"
+import "@/app/globals.css"
 
 export const metadata = {
   title: "Village Pals - From Campfire to Community",

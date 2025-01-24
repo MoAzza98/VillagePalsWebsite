@@ -18,9 +18,9 @@ export function Roadmap() {
     <>
       <style jsx>{`${pulseAnimation}${hoverStyles}`}</style>
       <div className="flex flex-col items-center w-full max-w-[1200px] mx-auto px-4 text-white pb-16">
-        <h1 className="text-4xl md:text-5xl font-bold mb-4">Road Map</h1>
+        <h1 className="text-4xl md:text-5xl font-bold mb-4">RoadMap</h1>
         <p className="text-white/80 text-center max-w-[600px] mb-16">
-          Take a look at our development timeline as we build on top of the existing VillagePals product into 2025.
+          Take a look at our development timeline as we build on top of the existing VillagePals product into and throughout 2025.
         </p>
 
         <div className="relative w-full">
@@ -57,7 +57,8 @@ export function Roadmap() {
                 <div className="pl-8">
                   <div className="bg-white/10 p-6 rounded-lg hover:bg-white/15 transition-colors">
                     <h3 className="font-semibold mb-1">Q1 2025</h3>
-                    <p className="text-white/60">Release Ecosystem Finalization and Further Development of Pre-Alpha</p>
+                    <p className="text-white/60">Release Ecosystem Finalization and Further Development of Pre-Alpha. Market Strategy Outreach and 
+                    Development for AI Agent Collaborative Cammpaigns.</p>
                   </div>
                 </div>
               </div>
@@ -73,7 +74,7 @@ export function Roadmap() {
                   <div className="bg-white/10 p-6 rounded-lg hover:bg-white/15 transition-colors">
                     <h3 className="font-semibold mb-1">Q2 2025</h3>
                     <p className="text-white/60">
-                      NFT Town Sale Preparation and Launch. Pre-Alpha Closed Testers Release.
+                      Release of Whitepaper and Tokenomic structure. Wave 2 Rollout of Collaboration and Partnership Campaigns. Pre-Alpha Closed Testers Release.
                     </p>
                   </div>
                 </div>
@@ -93,7 +94,8 @@ export function Roadmap() {
                 <div className="pl-8">
                   <div className="bg-white/10 p-6 rounded-lg hover:bg-white/15 transition-colors">
                     <h3 className="font-semibold mb-1">Q3 2025</h3>
-                    <p className="text-white/60">Intial Alpha Release and In-Game Marketplace Festival System..</p>
+                    <p className="text-white/60">NFT Town Sale Preparation and Launch. Intial Alpha Release and Internal Marketplace Festival System Development. 
+                    Wave 2 Rollout of Collaboration and Partnership Campaigns.</p>
                   </div>
                 </div>
               </div>
@@ -108,7 +110,8 @@ export function Roadmap() {
                 <div className="text-right pr-8">
                   <div className="bg-white/10 p-6 rounded-lg hover:bg-white/15 transition-colors">
                     <h3 className="font-semibold mb-1">Q4 2025</h3>
-                    <p className="text-white/60">$PALS Token Release And In-Game Integrations. Beta Build Release. </p>
+                    <p className="text-white/60">$PALS Token Release And Pre-Release Development and Testing of Core Game Systems. 
+                    Beta Build Public Release. Town NFT Systems Public Release.</p>
                   </div>
                 </div>
                 <div className="w-3" /> {/* Spacer for dot */}

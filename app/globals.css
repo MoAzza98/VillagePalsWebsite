@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: "FOT-RodinBokutoh Pro EB";
-  src: url("public/fonts/FOT-RodinBokutoh Pro EB.ttf") format("truetype");
+  src: url("public/fonts/FOT-RodinBokutoh Pro EB.otf") format("OpenType");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -12,7 +12,7 @@
 
 @font-face {
   font-family: "FOT-Seurat Pro B";
-  src: url("public/fonts/FOT-Seurat Pro B.ttf") format("truetype");
+  src: url("public/fonts/FOT-Seurat Pro B.otf") format("OpenType");
   font-weight: normal;
   font-style: normal;
   font-display: swap;

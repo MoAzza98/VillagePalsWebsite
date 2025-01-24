@@ -199,7 +199,7 @@ export default function LandingPage() {
               <h1 className="text-4xl md:text-7xl font-bold text-white mb-4 tracking-wider leading-tight text-center [text-shadow:_0_4px_4px_rgb(0_0_0_/_50%)]">
                 FROM CAMPFIRE TO COMMUNITY
               </h1>
-              <h3 className="text-xl md:text-3xl font-medium text-white/90 mb-8 tracking-wide text-center px-4 [text-shadow:_0_2px_2px_rgb(0_0_0_/_30%)]">
+              <h3 className="text-xl md:text-2xl font-medium text-white/90 mb-8 tracking-wide text-center px-4 [text-shadow:_0_2px_2px_rgb(0_0_0_/_30%)]">
                 BUILD A THRIVING TOWN ON THE BLOCKCHAIN
               </h3>
             </div>

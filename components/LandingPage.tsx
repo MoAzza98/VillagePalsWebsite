@@ -189,7 +189,7 @@ export default function LandingPage() {
                   alt="Abstract Logo"
                   width={24}
                   height={24}
-                  className="object-contain invert"
+                  className="object-contain"
                 />
                 Abstract
               </Button>

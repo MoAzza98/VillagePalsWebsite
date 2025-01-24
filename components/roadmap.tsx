@@ -58,7 +58,7 @@ export function Roadmap() {
                   <div className="bg-white/30 p-6 rounded-lg hover:bg-white/50 transition-colors">
                     <h3 className="font-semibold mb-1">Q1 2025</h3>
                     <p className="text-white/90">Release Ecosystem Finalization and Further Development of Pre-Alpha. Market Strategy Outreach and 
-                    Development for AI Agent Collaborative Cammpaigns.</p>
+                    Development for AI Agent Collaborative Campaigns.</p>
                   </div>
                 </div>
               </div>

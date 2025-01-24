@@ -36,7 +36,7 @@ export function Roadmap() {
               </div>
               <div className="grid grid-cols-[1fr,auto,1fr] gap-4 w-full">
                 <div className="text-right pr-8">
-                  <div className="bg-white/10 p-6 rounded-lg hover:bg-white/15 transition-colors">
+                  <div className="bg-white/30 p-6 rounded-lg hover:bg-white/50 transition-colors">
                     <h3 className="font-semibold mb-1">Q4 2024</h3>
                     <p className="text-white/60">Final Pre-MVP Development Phase and Public Announcement.</p>
                   </div>
@@ -55,7 +55,7 @@ export function Roadmap() {
                 <div /> {/* Empty left side */}
                 <div className="w-3" /> {/* Spacer for dot */}
                 <div className="pl-8">
-                  <div className="bg-white/10 p-6 rounded-lg hover:bg-white/15 transition-colors">
+                  <div className="bg-white/30 p-6 rounded-lg hover:bg-white/50 transition-colors">
                     <h3 className="font-semibold mb-1">Q1 2025</h3>
                     <p className="text-white/60">Release Ecosystem Finalization and Further Development of Pre-Alpha. Market Strategy Outreach and 
                     Development for AI Agent Collaborative Cammpaigns.</p>
@@ -71,7 +71,7 @@ export function Roadmap() {
               </div>
               <div className="grid grid-cols-[1fr,auto,1fr] gap-4 w-full">
                 <div className="text-right pr-8">
-                  <div className="bg-white/10 p-6 rounded-lg hover:bg-white/15 transition-colors">
+                  <div className="bg-white/30 p-6 rounded-lg hover:bg-white/50 transition-colors">
                     <h3 className="font-semibold mb-1">Q2 2025</h3>
                     <p className="text-white/60">
                       Release of Whitepaper and Tokenomic structure. Wave 2 Rollout of Collaboration and Partnership Campaigns. Pre-Alpha Closed Testers Release.
@@ -92,7 +92,7 @@ export function Roadmap() {
                 <div /> {/* Empty left side */}
                 <div className="w-3" /> {/* Spacer for dot */}
                 <div className="pl-8">
-                  <div className="bg-white/10 p-6 rounded-lg hover:bg-white/15 transition-colors">
+                  <div className="bg-white/30 p-6 rounded-lg hover:bg-white/50 transition-colors">
                     <h3 className="font-semibold mb-1">Q3 2025</h3>
                     <p className="text-white/60">NFT Town Sale Preparation and Launch. Intial Alpha Release and Internal Marketplace Festival System Development. 
                     Wave 2 Rollout of Collaboration and Partnership Campaigns.</p>
@@ -108,7 +108,7 @@ export function Roadmap() {
               </div>
               <div className="grid grid-cols-[1fr,auto,1fr] gap-4 w-full">
                 <div className="text-right pr-8">
-                  <div className="bg-white/10 p-6 rounded-lg hover:bg-white/15 transition-colors">
+                  <div className="bg-white/30 p-6 rounded-lg hover:bg-white/50 transition-colors">
                     <h3 className="font-semibold mb-1">Q4 2025</h3>
                     <p className="text-white/60">$PALS Token Release And Pre-Release Development and Testing of Core Game Systems. 
                     Beta Build Public Release. Town NFT Systems Public Release.</p>

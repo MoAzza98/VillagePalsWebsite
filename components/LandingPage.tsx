@@ -171,7 +171,7 @@ export default function LandingPage() {
               <h1 className="text-4xl md:text-7xl font-bold text-white mb-4 tracking-wider leading-tight text-center [text-shadow:_0_4px_4px_rgb(0_0_0_/_50%)]">
                 FROM CAMPFIRE TO COMMUNITY
               </h1>
-              <h3 className="text-xl md:text-3xl font-medium text-white/90 mb-8 tracking-wide text-center px-4 [text-shadow:_0_2px_2px_rgb(0_0_0_/_30%)]">
+              <h3 className="text-xl md:text-2xl font-medium text-white/90 mb-8 tracking-wide text-center px-4 [text-shadow:_0_2px_2px_rgb(0_0_0_/_30%)]">
                 BUILD A THRIVING TOWN ON THE BLOCKCHAIN
               </h3>
             </div>
@@ -185,13 +185,13 @@ export default function LandingPage() {
             <div className="flex flex-col md:flex-row justify-center gap-3 md:gap-6 w-full md:w-auto">
               <Button className="bg-black/30 hover:bg-black/50 text-white px-4 md:px-8 py-4 md:py-6 rounded-xl w-full md:min-w-[180px] backdrop-blur-sm flex flex-row items-center justify-center gap-3">
                 <Image
-                  src="/images/immutable.png"
-                  alt="ImmutableX Logo"
+                  src="/images/abstract.png"
+                  alt="Abstract Logo"
                   width={24}
                   height={24}
                   className="object-contain invert"
                 />
-                ImmutableX
+                Abstract
               </Button>
               <Button className="bg-black/30 hover:bg-black/50 text-white px-4 md:px-8 py-4 md:py-6 rounded-xl w-full md:min-w-[180px] backdrop-blur-sm flex flex-row items-center justify-center gap-3">
                 <Image src="/images/sui-logo.webp" alt="Sui Logo" width={24} height={24} className="object-contain" />

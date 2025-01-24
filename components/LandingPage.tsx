@@ -180,7 +180,7 @@ export default function LandingPage() {
           {/* Platform Buttons and Download Text */}
           <div className="fixed bottom-8 md:bottom-12 left-0 right-0 z-20 flex flex-col items-center px-4">
             <p className="text-base md:text-lg text-white/80 drop-shadow-lg mb-6 text-center">
-              Releasing on Multiple Ecosystems - Download Soon.
+              Finalizing Release Ecosystem - Download Soon.
             </p>
             <div className="flex flex-col md:flex-row justify-center gap-3 md:gap-6 w-full md:w-auto">
               <Button className="bg-black/30 hover:bg-black/50 text-white px-4 md:px-8 py-4 md:py-6 rounded-xl w-full md:min-w-[180px] backdrop-blur-sm flex flex-row items-center justify-center gap-3">

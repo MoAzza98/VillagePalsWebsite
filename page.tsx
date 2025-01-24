@@ -199,27 +199,27 @@ export default function LandingPage() {
               <h1 className="text-4xl md:text-7xl font-bold text-white mb-4 tracking-wider leading-tight text-center [text-shadow:_0_4px_4px_rgb(0_0_0_/_50%)]">
                 FROM CAMPFIRE TO COMMUNITY
               </h1>
-              <h2 className="text-xl md:text-3xl font-medium text-white/90 mb-8 tracking-wide text-center px-4 [text-shadow:_0_2px_2px_rgb(0_0_0_/_30%)]">
+              <h3 className="text-xl md:text-3xl font-medium text-white/90 mb-8 tracking-wide text-center px-4 [text-shadow:_0_2px_2px_rgb(0_0_0_/_30%)]">
                 BUILD A THRIVING TOWN ON THE BLOCKCHAIN
-              </h2>
+              </h3>
             </div>
           </main>
 
           {/* Platform Buttons and Download Text */}
           <div className="fixed bottom-8 md:bottom-12 left-0 right-0 z-20 flex flex-col items-center px-4">
             <p className="text-base md:text-lg text-white/80 drop-shadow-lg mb-6 text-center">
-              Releasing on Multiple Ecosystems - Download Soon.
+              Finalizing Release Ecosystems - Download Soon.
             </p>
             <div className="flex flex-col md:flex-row justify-center gap-3 md:gap-6 w-full md:w-auto">
               <Button className="bg-black/30 hover:bg-black/50 text-white px-4 md:px-8 py-4 md:py-6 rounded-xl w-full md:min-w-[180px] backdrop-blur-sm flex flex-row items-center justify-center gap-3">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/immutable1699613369173-F3bEeHeZd1Q5pfd9rkbMkRPQMHVxPs.png"
-                  alt="ImmutableX Logo"
+                  src="/images/abstract.png"
+                  alt="Abstract Logo"
                   width={24}
                   height={24}
                   className="object-contain invert"
                 />
-                ImmutableX
+                Abstract
               </Button>
               <Button className="bg-black/30 hover:bg-black/50 text-white px-4 md:px-8 py-4 md:py-6 rounded-xl w-full md:min-w-[180px] backdrop-blur-sm flex flex-row items-center justify-center gap-3">
                 <Image
@@ -234,7 +234,7 @@ export default function LandingPage() {
               <Button className="bg-black/30 hover:bg-black/50 text-white px-4 md:px-8 py-4 md:py-6 rounded-xl w-full md:min-w-[180px] backdrop-blur-sm flex flex-row items-center justify-center gap-3">
                 <Image
                   src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Solana_logo-XQMY7TlwSjVwvcX7sG0AWwg2VaQp1N.png"
-                  alt="Solana Logo"
+                  alt="Abstract Logo"
                   width={24}
                   height={24}
                   className="object-contain"

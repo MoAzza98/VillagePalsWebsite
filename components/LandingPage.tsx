@@ -119,12 +119,12 @@ export default function LandingPage() {
           </a>
         </Button>
         <Button variant="ghost" size="icon" className="text-white/50 hover:text-white hover:bg-transparent" asChild>
-          <a href="https://discord.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://discord.gg/eaYpUWhV" target="_blank" rel="noopener noreferrer">
             <Image src="/images/discord.png" alt="Discord" width={24} height={24} className="object-contain" />
           </a>
         </Button>
         <Button variant="ghost" size="icon" className="text-white/50 hover:text-white hover:bg-transparent" asChild>
-          <a href="https://telegram.org" target="_blank" rel="noopener noreferrer">
+          <a href="https://t.me/+NecmCeGQNiQ3Zjlk" target="_blank" rel="noopener noreferrer">
             <Image src="/images/telegram.png" alt="Telegram" width={20} height={20} className="object-contain" />
           </a>
         </Button>

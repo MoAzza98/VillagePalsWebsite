@@ -38,7 +38,7 @@ export function Roadmap() {
                 <div className="text-right pr-8">
                   <div className="bg-white/30 p-6 rounded-lg hover:bg-white/50 transition-colors">
                     <h3 className="font-semibold mb-1">Q4 2024</h3>
-                    <p className="text-white/60">Final Pre-MVP Development Phase and Public Announcement.</p>
+                    <p className="text-white/90">Final Pre-MVP Development Phase and Public Announcement.</p>
                   </div>
                 </div>
                 <div className="w-3" /> {/* Spacer for dot */}
@@ -57,7 +57,7 @@ export function Roadmap() {
                 <div className="pl-8">
                   <div className="bg-white/30 p-6 rounded-lg hover:bg-white/50 transition-colors">
                     <h3 className="font-semibold mb-1">Q1 2025</h3>
-                    <p className="text-white/60">Release Ecosystem Finalization and Further Development of Pre-Alpha. Market Strategy Outreach and 
+                    <p className="text-white/90">Release Ecosystem Finalization and Further Development of Pre-Alpha. Market Strategy Outreach and 
                     Development for AI Agent Collaborative Cammpaigns.</p>
                   </div>
                 </div>
@@ -73,7 +73,7 @@ export function Roadmap() {
                 <div className="text-right pr-8">
                   <div className="bg-white/30 p-6 rounded-lg hover:bg-white/50 transition-colors">
                     <h3 className="font-semibold mb-1">Q2 2025</h3>
-                    <p className="text-white/60">
+                    <p className="text-white/90">
                       Release of Whitepaper and Tokenomic structure. Wave 2 Rollout of Collaboration and Partnership Campaigns. Pre-Alpha Closed Testers Release.
                     </p>
                   </div>
@@ -94,7 +94,7 @@ export function Roadmap() {
                 <div className="pl-8">
                   <div className="bg-white/30 p-6 rounded-lg hover:bg-white/50 transition-colors">
                     <h3 className="font-semibold mb-1">Q3 2025</h3>
-                    <p className="text-white/60">NFT Town Sale Preparation and Launch. Intial Alpha Release and Internal Marketplace Festival System Development. 
+                    <p className="text-white/90">NFT Town Sale Preparation and Launch. Intial Alpha Release and Internal Marketplace Festival System Development. 
                     Wave 2 Rollout of Collaboration and Partnership Campaigns.</p>
                   </div>
                 </div>
@@ -110,7 +110,7 @@ export function Roadmap() {
                 <div className="text-right pr-8">
                   <div className="bg-white/30 p-6 rounded-lg hover:bg-white/50 transition-colors">
                     <h3 className="font-semibold mb-1">Q4 2025</h3>
-                    <p className="text-white/60">$PALS Token Release And Pre-Release Development and Testing of Core Game Systems. 
+                    <p className="text-white/90">$PALS Token Release And Pre-Release Development and Testing of Core Game Systems. 
                     Beta Build Public Release. Town NFT Systems Public Release.</p>
                   </div>
                 </div>
